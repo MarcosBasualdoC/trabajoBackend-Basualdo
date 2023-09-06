@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Remera Negra",
+    "description": "una remera negra",
+    "code": "P001",
+    "price": 5000,
+    "status": true,
+    "stock": 100,
+    "category": "Remeras",
+    "thumbnails": [
+      "img/producto1_1.jpg",
+      "img/producto1_2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pantalos Gris",
+    "description": "una pantalon gris",
+    "code": "P002",
+    "price": 9000,
+    "status": true,
+    "stock": 100,
+    "category": "Pantalones",
+    "thumbnails": [
+      "img/producto2_1.jpg",
+      "img/producto2_2.jpg"
+    ]
+  }
+]
