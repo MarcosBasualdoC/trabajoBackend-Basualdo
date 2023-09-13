@@ -20,16 +20,16 @@
     <button type="button" onclick="agregarProducto()">Agregar Producto</button>
 </form>
 
-<script src="/socket.io/socket.io.js"></script>
-
-<!--js-->
+<!-- JavaScript para manejar el envío del formulario -->
 <script>
     function agregarProducto() {
         const title = document.getElementById('title').value;
         const price = document.getElementById('price').value;
-      
+
+        // Emitir un evento WebSocket para agregar un producto
         socket.emit('agregarProducto', { title, price });
 
+        // Limpiar los campos del formulario
         document.getElementById('title').value = '';
         document.getElementById('price').value = '';
     }
